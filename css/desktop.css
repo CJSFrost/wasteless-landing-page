@@ -1,0 +1,190 @@
+* {
+  font-family: Lato, sans-serif;
+}
+
+.newsletter {
+  height: 300px;
+}
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.footer {
+  height: 100px;
+  color: white;
+}
+
+.Rectangle-4 {
+  background-color: #f4f4f4;
+}
+
+.card {
+  border: none;
+}
+
+.hgreen {
+  color: #59a542;
+}
+
+.pgreen {
+ color: #59a542;
+}
+
+.centertext {
+  text-align: center;
+}
+
+
+.totheright {
+  text-align: right;
+}
+
+header {
+  height: 500px;
+}
+
+.padding {
+  padding-top: 40px;
+}
+
+header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.navlogo {
+  font-size: 24px;
+  font-family: Lato, sans-serif;
+}
+
+.navlist {
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  color: green;
+}
+
+
+
+
+.Terms-of-service {
+  width: 226px;
+  height: 39px;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #59a542;
+}
+
+.Get-help {
+  width: 119px;
+  height: 39px;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #59a542;
+}
+
+.Home {
+  width: 100px;
+  height: 80px;
+  font-family: Oswald;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #59a542;
+}
+
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid white;
+}
+
+/* Add some padding and a grey background color to containers */
+.container-two {
+  padding: 0px 20px 20px 20px;
+  background-color: white;;
+  text-align: center;
+}
+
+.container-three {
+  padding: 20px 20px 0px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+input[type=text], input[type=submit] {
+  width: 25%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  margin-top: 0px;
+  color: white;
+  border: none;
+  border-radius: 22px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
